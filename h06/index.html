@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Hoofdstuk 6</title>
+    <style>
+        form ul {
+            list-style-type: none;
+            padding:0;
+        }
+
+        form ul li {
+            padding:10px;
+        }
+
+        form ul li input {
+            position:absolute;
+            left:150px;
+        }
+
+    </style>
+
 </head>
 <body>
-<h1>Hoofdstuk 6</h1>
+<header>
+    <h1>Hoofdstuk 6</h1>
+
+    <form action="https://www.savatarian.com/html5/form.php" method="post">
+        <ul>
+            <li>
+                <h2>Burton Education</h2>
+                <span class="verplicht">* verplicht veld</span>
+            </li>
+            <li>
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" name="voornaam" />
+            </li>
+            <li>
+                <label for="achternaam">Achternaam:</label>
+                <input type="text" name="achternaam"/>
+            </li>
+            <li>
+                <input type="submit" name="knop"/>
+            </li>
+        </ul>
+    </form>
+
+</header>
 <a href="https://nostalgic-carson-c888bc.netlify.app/">Home</a>
 
 </body>
