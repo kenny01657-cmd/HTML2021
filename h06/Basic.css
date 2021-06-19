@@ -1,0 +1,22 @@
+.container {
+    color: lightblue;
+}
+
+.container2 > div {
+    display: flex;
+    font-size: 1em;
+}
+
+.container > div {
+    //border: 1px solid black;
+    display: flex;
+    font-size: 1em;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+}
+
+

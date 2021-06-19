@@ -1,0 +1,62 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 40px 1fr 2fr 40px;
+    grid-template-rows: 400px 40px;
+}
+
+.container2 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(7, 25px);
+}
+
+.container3 {
+    height: 100%;
+    width: 40%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(7, 25px);
+}
+
+.left-side {
+    grid-column: 1 / 2;
+}
+
+.right-side {
+    grid-column: 2 / 3;
+}
+
+.right-side textarea {
+    height: 100px;
+    width: 250px;
+}
+
+.right-side checkbox {
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.deel1 {
+    grid-column: 2 / 3;
+}
+
+.deel2 {
+    grid-column: 3 / 4;
+}
+
+.buttons {
+    grid-column: 2 / 4;
+    display: flex;
+    margin: auto;
+}
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Formulier.css">
+    <link rel="stylesheet" href="Basic.css">
+    <meta charset="UTF-8">
+    <title>Hoofdstuk 6</title>
+</head>
+<body>
+    <h1>Opdracht 2</h1>
+    <br>
+    <div class="header">
+        <h2>Voorbeeldformulier</h2>
+    </div>
+    <form action="https://www.savatarian.com/html5/form.php" method="post">
+        <div class="container">
+            <div class="deel1">
+                <div class="container2">
+                    <div class="left-side">
+                        <label for="voornaam">Voornaam:</label>
+                    </div>
+
+                    <div class="right-side">
+                        <input type="text" id="voornaam" name="voornaam">
+                    </div>
+
+                    <div class="left-side">
+                        <label for="tussenvoegsel">Tussenvoegsel:</label>
+                    </div>
+
+                    <div class="right-side">
+                        <input type="text" id="tussenvoegsel" name="voornaam">
+                    </div>
+
+                    <div class="left-side">
+                        <label for="achternaam">Achternaam:</label>
+                    </div>
+
+                    <div class="right-side">
+                        <input type="text" id="achternaam" name="achternaam">
+                    </div>
+
+                    <div class="left-side">
+                        <label for="geslacht">Geslacht:</label>
+                    </div>
+
+                    <div class="right-side" id="geslacht">
+                        <input type="radio" name="geslacht">Man
+                        <input type="radio" name="geslacht">Vrouw
+                    </div>
+
+                    <div class="left-side">
+                        <label for="oogkleur">Kleur ogen:</label>
+                    </div>
+
+                    <div class="right-side">
+                        <select id="oogkleur">
+                            <option value="bruin">Bruin</option>
+                            <option value="blauw">Blauw</option>
+                            <option value="groen">Groen</option>
+                            <option value="grijs">Grijs</option>
+                        </select>
+                    </div>
+
+                    <div class="left-side">
+                        <label for="geboortedatum">Geboortedatum:</label>
+                    </div>
+
+                    <div class="right-side">
+                        <input type="date" id="geboortedatum" name="geboortedatum">
+                    </div>
+
+                    <div class="left-side">
+                        <label for="omschrijving">Omschrijving:</label>
+                    </div>
+
+                    <div class="right-side">
+                        <textarea name="omschrijving" id="omschrijving" rows="20" cols="25"></textarea>
+                    </div>
+                </div><!--container 2-->
+            </div><!--Deel 1-->
+            <div class="deel2">
+                <div class="container3">
+                    <div class="left-side">
+                        <label for="lekker-eten">Lekker eten:</label>
+                    </div>
+
+                    <div  class="right-side" id="lekker-eten">
+                        <input type="checkbox" name="lekker-eten" value="sperciebonen">Sperciebonen
+                    </div>
+
+                    <div class="right-side">
+                        <input type="checkbox" name="lekker-eten" value="hamburger">Hamburger
+                    </div>
+
+                    <div class="right-side">
+                       <input type="checkbox" name="lekker-eten" value="patat">Patat
+                    </div>
+
+                    <div class="right-side">
+                       <input type="checkbox" name="lekker-eten" value="aardappelen">Aardappelen
+                    </div>
+
+                </div><!--container 3-->
+
+            </div><!--Deel 2-->
+            <div class="buttons">
+                <input type="button" value="    Annuleer    ">
+                <input type="submit" value="    Ok    ">
+            </div>
+        </div><!--wrapper (container)-->
+    </form>
+    <br>
+    <a href="">Return</a>
+</body>
+</html>
